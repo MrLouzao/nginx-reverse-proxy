@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.header_wrapper {
+    color: white;
+    background-color: #333333;
+    padding: 24px;
+}
+
+.header_wrapper__title {
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.service_status__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.service_status__service {
+    display: flex;
+    align-self: flex-start;
+}
+
+.service_status__service_name {
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.service_status__service_status_ok {
+   width: 12px;
+   height: 12px;
+   background: #4C9A2A;
+   border-radius: 12px;
+}
+
+.service_status__service_status_error {
+    width: 12px;
+    height: 12px;
+    background: #BD3333; 
+    border-radius: 12px;
+ }
+
+ .service_status__loading {
+     text-align: center;
+ }
+
+ .hidden {
+     display: none;
+ }
